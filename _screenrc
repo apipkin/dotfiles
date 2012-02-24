@@ -1,0 +1,7 @@
+# terminal colors for syntax highlighting in vim
+term screen-256color
+
+# skip the startup message
+startup_message off
+
+
