@@ -14,7 +14,7 @@ syntax on
 
 " ---------------------------------------------------------
 "
-" M U S T   H A V E   O P T I O N S
+" G U I   O P T I O N S
 "
 " confirm with y/n/c when closing unsaved files
 set confirm
@@ -29,6 +29,8 @@ set showcmd
 set hlsearch
 set nomodeline
 
+" colorscheme
+colorscheme wombat256
 
 " ---------------------------------------------------------
 "
@@ -95,8 +97,3 @@ map Y y$
 
 " map <C-L> (redraw screen) to also tun off search highlighting 
 nnoremap <C-L> :nohl<CR><C-L>
-
-
-
-
-
