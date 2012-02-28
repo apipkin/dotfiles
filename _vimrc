@@ -62,6 +62,9 @@ set t_vb=
 
 " enable use of the mouse for all modes
 set mouse=a
+if $TERM == 'screen-256color'
+	set ttymouse=xterm2
+endif
 
 " set command window height to 2 lines, to avoid many cases of having to press
 " to continue
