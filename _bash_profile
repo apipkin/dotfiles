@@ -3,9 +3,6 @@ export PATH="/usr/local/mysql/bin:~/Project/flex_sdk_4.6/bin:$PATH"
 alias yuiupdate='sudo npm -g i yuidocjs selleck shifter grover yuitest yeti'
 alias ys='yogi serve --watch --istanbul'
 
-export GHN_API=c776bdb21aeb0114a3ce
-export GHN_SECRET=ff2cb1b47918367264ebbc6ed8bbaab27ac3
-
 function parse_git_branch {
   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
