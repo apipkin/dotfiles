@@ -1,0 +1,19 @@
+[merge]
+   tool = opendiff
+[core]
+   excludesfile = /Users/apipkin/.gitignore
+[alias]
+   st = status
+   ci = commit
+   co = checkout
+   br = branch
+[color]
+   ui = auto
+   status = auto
+   branch = auto
+   diff = never
+[user]
+   name = Anthony Pipkin
+   email = a.pipkin@yahoo.com
+[diff]
+   tool = vimdiff
