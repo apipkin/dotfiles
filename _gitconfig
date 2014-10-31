@@ -1,7 +1,7 @@
 [merge]
    tool = opendiff
 [core]
-   excludesfile = /Users/apipkin/.gitignore
+   excludesfile = /Users/rodrigomartinez/.gitignore
 [alias]
    st = status
    ci = commit
@@ -13,7 +13,9 @@
    branch = auto
    diff = never
 [user]
-   name = Anthony Pipkin
-   email = a.pipkin@yahoo.com
+   name = Rodrigo Martinez
+   email = ururod@gmail.com
+[push]
+   default=matching
 [diff]
    tool = vimdiff

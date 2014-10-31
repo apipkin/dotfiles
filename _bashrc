@@ -1,7 +1,6 @@
-export PATH="/usr/local/mysql/bin:~/Project/flex_sdk_4.6/bin:$PATH"
+export PATH="$HOME/.rbenv/bin:$HOME/.rvm/bin:$PATH"
 
-alias yuiupdate='npm -g i yuidocjs selleck shifter grover yuitest yeti'
-alias ys='yogi serve --watch --istanbul'
+eval "$(rbenv init-)"
 
 function parse_git_branch {
   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
