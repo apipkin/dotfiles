@@ -13,7 +13,7 @@
    branch = auto
    diff = never
 [user]
-   name = Anthony Pipkin
-   email = a.pipkin@yahoo.com
+	name = Anthony Pipkin
+	email = a.pipkin@yahoo.com
 [diff]
    tool = vimdiff
