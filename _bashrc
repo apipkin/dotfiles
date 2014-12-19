@@ -1,7 +1,7 @@
-export PATH="/usr/local/mysql/bin:~/Project/flex_sdk_4.6/bin:$PATH"
+export PATH="/usr/local/mysql/bin:$PATH"
 
-alias yuiupdate='npm -g i yuidocjs selleck shifter grover yuitest yeti'
-alias ys='yogi serve --watch --istanbul'
+export CLICOLOR=1
+export LSCOLORS=gxBxhxDxfxhxhxhxhxcxCx
 
 function parse_git_branch {
   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
