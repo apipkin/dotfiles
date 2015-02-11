@@ -1,7 +1,13 @@
-export PATH="/usr/local/mysql/bin:~/Project/flex_sdk_4.6/bin:$PATH"
+export PATH="/usr/local/sbin:/usr/local/mysql/bin:$PATH"
 
-alias yuiupdate='npm -g i yuidocjs selleck shifter grover yuitest yeti'
-alias ys='yogi serve --watch --istanbul'
+export JAVA_HOME=`/usr/libexec/java_home`
+
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
+
+export CLICOLOR=1
+export LSCOLORS=gxBxhxDxfxhxhxhxhxcxCx
 
 function parse_git_branch {
   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
@@ -39,3 +45,10 @@ PS2='> '
 PS4='+ '
 }
 proml
+
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+
+# added by travis gem
+[ -f /Users/apipkin/.travis/travis.sh ] && source /Users/apipkin/.travis/travis.sh
