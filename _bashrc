@@ -1,6 +1,7 @@
 export PATH="/usr/local/sbin:/usr/local/mysql/bin:$PATH"
 
-export JAVA_HOME=`/usr/libexec/java_home`
+export JAVA_HOME="`/usr/libexec/java_home)`"
+#export JAVA_HOME="`/usr/libexec/java_home -v '1.7*'`"
 
 if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
@@ -52,3 +53,7 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 # added by travis gem
 [ -f /Users/apipkin/.travis/travis.sh ] && source /Users/apipkin/.travis/travis.sh
+
+# RBENV Init
+eval "$(rbenv init -)"
+
